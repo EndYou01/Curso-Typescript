@@ -1,13 +1,16 @@
-import { Todo } from "./todo/Todo";
+// import { Todo } from "./todo/Todo";
+import { CounterApp } from "./counter/CounterApp";
 
 
 
 function App() {
-  return (
-    <>
-      	<Todo/>
-    </>
-  );
+	return (
+		<>
+			
+			{/* <Todo /> */}
+			<CounterApp/>
+		</>
+	);
 }
 
 export default App;

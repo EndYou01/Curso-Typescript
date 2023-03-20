@@ -1,5 +1,7 @@
 import { ContadorRed } from "./components/ContadorRed"
 import { Counter } from "./components/Counter"
+import { Formulario } from "./components/Formulario"
+import { Formulario2 } from "./components/Formulario2"
 import { TimerPadre } from "./components/TimerPadre"
 import { Usuario } from "./components/Usuario"
 
@@ -26,6 +28,18 @@ export const CounterApp = () => {
 
         <ContadorRed/>
 
+
+        <h2>CustomHooks:</h2>
+        <hr />
+
+
+        <Formulario/>
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <Formulario2/>
         
     </div>
   )
